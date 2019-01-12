@@ -1,0 +1,69 @@
+.progress {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  .horizonLists {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    .listItem {
+      display: flex;
+      .circle {
+        width: px2rem(24);
+        height: px2rem(24);
+        background-color: #EBEBEB;
+        border-radius: 50%;
+        margin-top: px2rem(36);
+        margin-left: px2rem(16);
+      }
+      .line {
+        width: px2rem(50);
+        height: px2rem(4);
+        margin-top: px2rem(47);
+        background-color: #ffffff;
+        border: px2rem(2) dashed #EBEBEB;
+      }
+      .info {
+        height: px2rem(100);
+        line-height: px2rem(100);
+        color: #262626;
+        font-size: px2rem(32);
+        margin-left: px2rem(8);
+      }
+    }
+  }
+  .verticalLists{
+    height: auto;
+    padding: px2rem(32) 0;
+    .listItem{
+      position: relative;
+      display: flex;
+      padding-bottom: px2rem(24);
+      box-sizing: content-box;
+      .circle{
+        width: px2rem(24);
+        height: px2rem(24);
+        background-color: #EBEBEB;
+        border-radius: 50%;
+        margin-left: px2rem(32);
+      }
+      .line{
+        position: absolute;
+        top: px2rem(24);
+        left: px2rem(44);
+        width: px2rem(4);
+        height: 100%;
+        border: px2rem(2) dashed #EBEBEB;
+      }
+      .last_line{
+      }
+      .info{
+        flex: 1;
+        color: #262626;
+        font-size: px2rem(32);
+        margin-left: px2rem(32)
+      }
+    }
+  }
+}
+

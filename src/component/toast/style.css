@@ -1,0 +1,42 @@
+.toast {
+  background: rgba(34, 34, 34, 0.5);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  z-index: 977;
+  .text {
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+  }
+  .image {
+    width: px2rem(100);
+    height: px2rem(100);
+  }
+  .mark {
+    position: fixed;
+    z-index: 976;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(43, 43, 43, 0.16);
+  }
+  .loadinfgImage {
+    transform: rotate(360deg);
+    animation: rotation 1s linear infinite;
+  }
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+

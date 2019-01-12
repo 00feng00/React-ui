@@ -1,0 +1,27 @@
+.searchBar {
+
+  padding-left: px2rem(10);
+  padding-right: px2rem(10);
+  display: flex;
+  align-items: center;
+  background: #fff;
+  height: px2rem(87);
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  max-width: 750px;
+  top: 0;
+
+  .input {
+    margin-left: px2rem(10);
+    margin-right: px2rem(10);
+    border: none;
+    background: #e5e5e5;
+    border-radius: 5px;
+    height: px2rem(60);
+    flex: 1;
+    text-indent: px2rem(30);
+  }
+
+}
+
